@@ -1,4 +1,4 @@
-class ClickbaitValidator < ActiveModel::Validator 
+class ClickbaitValidator < ActiveModel::Validator
   
   def validate(record)
     if record.title
